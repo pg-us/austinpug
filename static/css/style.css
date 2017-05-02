@@ -969,14 +969,15 @@
 		border-bottom: 6px solid #faa916;
 	}
 
-		#header h1 {
-			height: inherit;
-			left: 1em;
-			line-height: inherit;
-			margin: 0;
-			padding: 0;
+		#header .container h1 {
+			font-size: 1.2em;
+			color: #375aa8;
 			display: inline-block;
-			position: relative;
+			margin: 0;
+			line-height: initial;
+			padding: 0;
+			vertical-align: middle;
+			height: auto;
 		}
 
 			#header h1 a {
@@ -1058,6 +1059,7 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 	  background-attachment: fixed;
+		padding: 6em 0;
 		color: #ffffff;
 		text-align: center;
 		-webkit-transform: translate3d(0,0,0);
@@ -1083,7 +1085,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0em 4em;
+		padding: 2em 0;
 		/* Style 1 Wrapper */
 		/* Style 2 Wrapper */
 		/* Style 3 Wrapper */
@@ -1270,17 +1272,22 @@
 		.navbar-brand>img {
 			width: 3em;
 			margin: 4px;
+			display: inline-block;
 		}
 
 		.navbar-nav>li>a {
 			line-height: inherit;
 			color: #375aa8;
 			text-transform: uppercase;
-			padding: 1em 0;
+			padding: 1em;
 		}
 
 		.heading {
 	    margin:0;
 	    display: inline-block;
+		}
+
+		.jumbotron {
+			margin: 0;
 		}
 	}
