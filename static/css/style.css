@@ -964,16 +964,12 @@
 		background-color: #fff;
 		color: #375aa8;
 		cursor: default;
-		font-size: 1.1em;
-		height: 3.8em;
 		width: 100%;
 		z-index: 10000;
 		border-bottom: 6px solid #faa916;
 	}
 
 		#header h1 {
-			color: #375aa8;
-			text-transform: uppercase;
 			height: inherit;
 			left: 1em;
 			line-height: inherit;
@@ -1274,5 +1270,11 @@
 
 		.navbar-brand>img {
 			width: 5em;
+		}
+
+		.navbar-nav>li>a {
+			line-height: inherit;
+			color: #375aa8;
+			text-transform: uppercase;
 		}
 	}
