@@ -3,22 +3,8 @@
 {%block pagetitle%}PostgresOpen 2017{%endblock%}
 {%block content%}
 		<!-- Banner -->
-			<section id="banner">
+			<section id="banner" class="jumbotron">
 				<h2>PgDay Austin 2017</h2>
-				<p> August 27th
-				<ul class="actions">
-					<!--
-					<li>
-						<a href="{{link("tickets/")}}" class="button big">REGISTER</a>
-					</li>
-					-->
-				</ul>
-			</section>
-			<section id="sponsors"><h3>Diamond Partners</h3></section>
-			<section id="sponsorsimg">
-			{% for p in diamond %}
-				<a href="{{p.link}}" target="_blank"><img src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
-			{% endfor %}
 			</section>
 <!-- One -->
 			<section id="one" class="wrapper style1 special">
