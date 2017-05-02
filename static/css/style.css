@@ -1268,12 +1268,19 @@
 		}
 
 		.navbar-brand>img {
-			width: 5em;
+			width: 3em;
+			margin: 4px;
 		}
 
 		.navbar-nav>li>a {
 			line-height: inherit;
 			color: #375aa8;
 			text-transform: uppercase;
+			padding: 1em 0;
+		}
+
+		.heading {
+	    margin:0;
+	    display: inline-block;
 		}
 	}
