@@ -966,7 +966,7 @@
 		cursor: default;
 		width: 100%;
 		z-index: 10000;
-		border-bottom: 6px solid #faa916;
+		border-bottom: 6px solid #ffe74c;
 	}
 
 		#header .container h1 {
@@ -1079,7 +1079,10 @@
 		}
 
 		#banner p {
-			font-size: 1.5em;
+	    font-size: 1.8em;
+	    font-weight: 600;
+			text-transform: uppercase;
+			color: #ffe74c;
 		}
 
 /* Wrapper */
@@ -1280,6 +1283,7 @@
 			color: #375aa8;
 			text-transform: uppercase;
 			padding: 1em;
+			font-family: 'Noto Sans', sans-serif;
 		}
 
 		.heading {
