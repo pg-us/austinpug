@@ -447,6 +447,10 @@
 	    margin-bottom: 2em;
 		}
 
+		.box p {
+	    text-align: left;
+		}
+
 /* Icon */
 
 	.icon {
