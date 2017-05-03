@@ -1064,7 +1064,7 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 	  background-attachment: fixed;
-		padding: 6em 0;
+		padding: 9em 0;
 		color: #ffffff;
 		text-align: center;
 		-webkit-transform: translate3d(0,0,0);
@@ -1087,7 +1087,7 @@
 	    font-size: 1.8em;
 	    font-weight: 600;
 			text-transform: uppercase;
-			color: #ffe74c;
+			color: #fff;
 		}
 
 /* Wrapper */
