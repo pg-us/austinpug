@@ -443,7 +443,7 @@
 		}
 
 		.box img {
-	    width: 5em;
+	    width: 3em;
 	    margin-bottom: 2em;
 		}
 
@@ -1069,8 +1069,7 @@
 		background-position: center center;
 		background-size: cover;
 		background-repeat: no-repeat;
-	  background-attachment: fixed;
-		padding: 9em 0;
+		padding: 10em 0;
 		color: #ffffff;
 		text-align: center;
 		-webkit-transform: translate3d(0,0,0);
