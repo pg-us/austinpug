@@ -18,11 +18,11 @@
           </section>
 
 		<section class="section">
-			<h3>Diamond</h3>
+			<h3>Partner</h3>
 			{% set row_start = cycler('<div class="row text-center">','') %}
 			{% set row_end = cycler('','</div>') %}
 
-		  {% for p in diamond %}
+		  {% for p in partner %}
 		  {{ row_start.next() }}
 		  <div class="col-md-6 {% if loop.revindex0 == 0 and loop.length
 			   is not divisibleby 2 %} col-md-offset-3 {% endif %}">
@@ -45,11 +45,11 @@
             <hr>
 
 		<section class="section">
-			<h3>Gold</h3>
+			<h3>Supporter</h3>
 			{% set row_start = cycler('<div class="row text-center">','') %}
 			{% set row_end = cycler('','</div>') %}
 
-		  {% for p in gold %}
+		  {% for p in supporter %}
 		  {{ row_start.next() }}
 		  <div class="col-md-6 {% if loop.revindex0 == 0 and loop.length
 			   is not divisibleby 2 %} col-md-offset-3 {% endif %}">
@@ -72,11 +72,11 @@
         <hr>
 
 		<section class="section">
-			<h3>Silver</h3>
+			<h3>Advocate</h3>
 			{% set row_start = cycler('<div class="row text-center">','') %}
 			{% set row_end = cycler('','</div>') %}
 
-		  {% for p in silver %}
+		  {% for p in advocate %}
 		  {{ row_start.next() }}
 		  <div class="col-md-6 {% if loop.revindex0 == 0 and loop.length
 			   is not divisibleby 2 %} col-md-offset-3 {% endif %}">
