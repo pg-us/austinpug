@@ -32,12 +32,12 @@
 
 	a {
 		font-weight: bold;
-		color: #2298AC;
+		color: #375aa8;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #F21B3F;
+			color: #faa916;
 			text-decoration: underline;
 		}
 
