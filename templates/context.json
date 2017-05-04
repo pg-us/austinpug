@@ -4,6 +4,17 @@
 
     "conference": "PGDay Austin 2017",
 
+    "partner": [
+      {
+        "name": "fibercove",
+        "logo": "fibercove.svg",
+        "largelogo": "fibercove.svg",
+        "badgelogo": "fibercove.svg",
+        "link": "https://www.fibercove.com/en/",
+        "intro": "fibercove"
+      }
+    ],
+
 	"blogposts": [
 	{
 		"title": "Blog Entry 1",
