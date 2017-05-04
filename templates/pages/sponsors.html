@@ -24,8 +24,7 @@
 
 		  {% for p in partner %}
 		  {{ row_start.next() }}
-		  <div class="col-md-6 {% if loop.revindex0 == 0 and loop.length
-			   is not divisibleby 2 %} col-md-offset-3 {% endif %}">
+		  <div class="col-md-6">
 
 					<!-- Partner -->
 						<a href="{{p.link}}" target="_blank"><img class="sponsor" src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
@@ -53,8 +52,7 @@
 
 		  {% for p in supporter %}
 		  {{ row_start.next() }}
-		  <div class="col-md-6 {% if loop.revindex0 == 0 and loop.length
-			   is not divisibleby 2 %} col-md-offset-3 {% endif %}">
+		  <div class="col-md-6">
 					<!-- Gold -->
 						<a href="{{p.link}}" target="_blank"><img class="sponsor" src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
 
@@ -80,8 +78,7 @@
 
 		  {% for p in advocate %}
 		  {{ row_start.next() }}
-		  <div class="col-md-6 {% if loop.revindex0 == 0 and loop.length
-			   is not divisibleby 2 %} col-md-offset-3 {% endif %}">
+		  <div class="col-md-6">
 					<!-- Silver -->
 						<a href="{{p.link}}" target="_blank"><img class="sponsor" src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
 
