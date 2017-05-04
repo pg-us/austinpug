@@ -1,19 +1,16 @@
 {%extends "base.html" %}
-{%block title%}Sponsors | PostgresOpen 2017{%endblock%}
-{%block pagetitle%}PostgresOpen 2017{%endblock%}
+{%block title%}Sponsors | PgDay Austin 2017{%endblock%}
+{%block pagetitle%}PgDay Austin 2017{%endblock%}
 {%block content%}
 		<!-- Main -->
 
-					<header class="major">
-						<span class="header"><img id="side" src="{{media("images/sponsors.svg")}}" alt="" /></span>
-						<h2>Sponsors</h2>
-					</header>
+					<h1>Sponsors</h1>
 
           <!-- Sponsorship -->
           <section class="section">
             <hr>
             <h3>Sponsorship</h3>
-            <p>PostgresOpen wouldn't be possible without the support of our wonderful
+            <p>PGDay Austin wouldn't be possible without the support of our wonderful
                sponsors!  If you are interested in sponsoring the conference, please
 			   see our <b><a href="{{link("becomesponsor/")}}">sponsoring campaign</a></b> and let us know!
             </p>
@@ -31,7 +28,7 @@
 			   is not divisibleby 2 %} col-md-offset-3 {% endif %}">
 					<!-- Diamond -->
 						<a href="{{p.link}}" target="_blank"><img id="sponsors" src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
-      
+
 						<div class="caption">
 							<small><em>{{p.intro}}</em></small>
 						</div>
@@ -58,7 +55,7 @@
 			   is not divisibleby 2 %} col-md-offset-3 {% endif %}">
 					<!-- Gold -->
 						<a href="{{p.link}}" target="_blank"><img id="sponsors" src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
-      
+
 						<div class="caption">
 							<small><em>{{p.intro}}</em></small>
 						</div>
@@ -85,7 +82,7 @@
 			   is not divisibleby 2 %} col-md-offset-3 {% endif %}">
 					<!-- Silver -->
 						<a href="{{p.link}}" target="_blank"><img id="sponsors" src="{{media("images/" + p.largelogo)}}" alt="{{p.name}}"></a>
-      
+
 						<div class="caption">
 							<small><em>{{p.intro}}</em></small>
 						</div>
