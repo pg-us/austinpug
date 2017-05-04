@@ -219,8 +219,9 @@
 		}
 
 		.sponsor img {
-			height: 5em;
-			margin: 2em 2em 2em 0em;
+			display: block;
+			width: 8em;
+			margin: 1em 0;
 		}
 
 /* Form */
