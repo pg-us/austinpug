@@ -1,65 +1,41 @@
 {%extends "base.html" %}
-{%block title%}About the Conference | PostgresOpen 2017{%endblock%}
-{%block pagetitle%}PostgresOpen 2017{%endblock%}
+{%block title%}About Us | PgDay Austin 2017{%endblock%}
+{%block pagetitle%}PgDay Austin 2017{%endblock%}
 {%block content%}
 <!-- Main -->
 
-					<header class="major">
-						<span class="header"><img id="side" src="{{media("images/about.svg")}}" alt="" /></span>
-						<h2>About PostgresOpen</h2>
-					</header>
+					<h1>About Us</h1>
 
           <!-- Who we are -->
-          <section class="section">
             <hr>
-            <h3>Who We Are</h3>
-
-            <p>PostgresOpen Silicon Valley is a non–profit, community–run conference series in the United States focused on business users, database professionals and developers of PostgreSQL, the open source database. This year PostgresOpen has combined forces with PGConf Silicon Valley to bring together two large Postgres conferences to create an even larger more exciting event.</p>
-            <p>We target entrepreneurs, technologists and decision–makers on the leading edge of data management, open source database innovation and disruption of the database industry. PostgresOpen promotes the business of PostgreSQL as well as its use and development.</p>
-						<p>View our speaker videos from the 2016 PostgresOpen conference <a href="https://www.youtube.com/playlist?list=PLN8NEqxwuywTaXp0v5O-iO-mBaFb5k8nI">here</a> and from the PGConf SV conference <a href="https://www.youtube.com/playlist?list=PLixnExCn6lRoaqtaIarHjRTDOyxEVIPes">here.</a></p>
-						<hr>
-          </section>
-
-          <!-- Suitable for Many Audiences -->
-          <section>
-            <h3>Who Should Attend PostgresOpen</h3>
-
-            <p>PostgresOpen’s presentation span wide variety of topics surrounding Postgresql. The conference will
-							run multiple parallel tracks covering different technical levels to ensure there is always something
-							interesting for everybody. All talks will be given in English.</p>
-            <ul>
-              <li>DBAs already using PostgreSQL, or considering doing so</li>
-              <li>Developers of any kind of application</li>
-              <li>Decision-makers interested in evaluating the world's most advanced open source database as an alternative to traditional proprietary products</li>
-              <li>Big Data and analytics professionals</li>
-              <li>PostgreSQL contributors - code, documentation, support - whatever you help with!</li>
-							<li>Open Source enthusiasts in general!</li>
-            </ul>
-            <hr>
-          </section>
+            <p>
+							This group serves as the Austin chapter of PostgreSQL user groups, a community supported gathering of postgres users new and experienced alike.
+						</p><p>
+							We strive to create a collaborative environment for the growth of our interaction with PostgreSQL and the PostgreSQL community as a whole. We
+							organize events locally as well as abroad during global Postgres conferences, discuss topics that are interesting and exciting, give
+							informative/educational presentations, and participate in global community type events (Patch Days, reporting bugs, etc).
+						</p><p>
+							Some of our key members are highly active individuals in the postgres community that participate heavily in the advancement of the database
+							service. All are welcome, and we always love new faces. We cater to both the expert and the newbie, and the topics we cover are covered from
+							that standpoint as well.This is a great place to learn how to use postgres and to gain some hands-on training with some very knowledgable
+							individuals, share in a wealth of experience, and so on.
+						</p>
           <!-- Program Committee -->
-          <section>
-            <h3>Program Committee</h3>
-
+            <h3>Program Organizers</h3>
             <ul>
               <li>Stephen Frost, Committee Chair, CTO Crunchy Data Solutions, Inc., PGDG Committer and Major Contributor, DCPUG co-leader</li>
-			  <li>Craig Kerstiens, Committe Co-Chair, CitusDB</li>
-			  <li>Samantha Billington, OpenTable</li>
-			  <li>Umur Cubukcu, CitusDB</li>
+						  <li>Craig Kerstiens, Committe Co-Chair, CitusDB</li>
+						  <li>Samantha Billington, OpenTable</li>
+						  <li>Umur Cubukcu, CitusDB</li>
               <li>Joe Conway, VP PostgreSQL Engineering, Crunchy Data Solutions, Inc., PGDG Committer and SDPUG organizer</li>
               <li>Kris Pennella, Treasurer, United States PostgreSQL Association</li>
               <li>Sarah Conway, Web Developer, Crunchy Data Solutions, Inc.</li>
             </ul>
             <p>"PGDG" is the PostgreSQL Global Development Group</p>
-            <hr>
-          </section>
 
           <!-- Conference Policies -->
-          <section>
             <h3>Conference Policies</h3>
+						<p>Please see our <b><a href="{{link("policies/")}}">policies</a></b> regarding our refund, speaker, and anti-harassment policies.</p>
 
-			<p>Please see our <b><a href="{{link("policies/")}}">policies</a></b> regarding our refund, speaker, and anti-harassment policies.</p>
-            <hr>
-          </section>
 
 {% endblock %}
