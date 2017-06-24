@@ -235,7 +235,7 @@
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
-		margin: 0 0 1em 0;
+		margin: 1em 0 0 0;
 	}
 
 	input[type="text"],
@@ -1290,7 +1290,7 @@
 	}
 
 	fieldset p {
-		margin: 0;
+		margin: 1em 0 0 0;
 	}
 
 	label {
