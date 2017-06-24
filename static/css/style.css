@@ -1283,9 +1283,14 @@
 	    line-height: 1.5em;
 	    color: #375aa8;
 	    font-weight: 700;
-	    margin: 0 0 1em 0;
+	    margin: 0;
+			padding: 1em 0;
 	    text-transform: uppercase;
 	    font-family: 'Noto Sans', sans-serif;
+	}
+
+	fieldset p {
+		margin: 0;
 	}
 
 	label {
@@ -1293,7 +1298,6 @@
 	    display: block;
 	    font-size: 1em;
 	    font-weight: 700;
-	    margin: 1em 0 0 0;
 	}
 
 	input[type="text"], input[type="password"], input[type="email"], select {
