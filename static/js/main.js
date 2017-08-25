@@ -23,19 +23,3 @@ if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
         elements[i].addEventListener('touchend',function(){});
     }
 }
-
-$(function() {
-    $( "#popup" ).dialog({
-      resizable: false,
-      height:140,
-      modal: true,
-      buttons: {
-        "Delete all items": function() {
-          $( this ).dialog( "close" );
-        },
-        Cancel: function() {
-          $( this ).dialog( "close" );
-        }
-      }
-    });
-  });
