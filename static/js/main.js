@@ -25,7 +25,7 @@ if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream){
 }
 
 $(function() {
-    $( "#dialog-confirm" ).dialog({
+    $( "#popup" ).dialog({
       resizable: false,
       height:140,
       modal: true,
